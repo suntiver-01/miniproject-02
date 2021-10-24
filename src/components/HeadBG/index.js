@@ -1,14 +1,13 @@
 import React from 'react'
 import * as S from './HeadBG.styled'
 import {Button} from '../globals.styled'
-// import Video from '../../assets/videos/city.mp4'
 
 const HeadBG = () => {
     return (
         <React.Fragment>
                 <S.BgContainer>
                     <S.Bg>
-                        <S.VideoBg  src={'assets/videos/city.mp4'}  type="video/mp4"  autoPlay />
+                        <S.VideoBg  src={'/assets/videos/city.mp4'}  type="video/mp4"  autoPlay  loop muted playsInline />
                     </S.Bg>
 
                     <S.BgContent>
