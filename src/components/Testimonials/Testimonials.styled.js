@@ -73,7 +73,7 @@ export const Images = styled.img`
       height: 100%;
       max-width: 100%;
       border-radius: 10px;
-      filter: brightness(70%);
-      transition: 0.4s cubic-bezier(0.075,0.82,0.165,1);
+      filter: brightness(80%);
+    
 `
 
